@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Grand Quotidien</title>
+<style>
+  body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f7f4ef;
+    margin: 0;
+    padding: 0;
+    color: #111;
+  }
+
+  header {
+    background-color: #b60000;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .manchette {
+    background-color: #fff;
+    border-bottom: 3px solid #b60000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    font-weight: bold;
+  }
+
+  .manchette span {
+    font-size: 0.9em;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  }
+
+  main {
+    flex: 3;
+    padding-right: 20px;
+    border-right: 2px solid #ccc;
+  }
+
+  aside {
+    flex: 1;
+    padding-left: 20px;
+  }
+
+  .oreilles {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin: 10px 0;
+  }
+
+  .oreille-gauche, .oreille-droite {
+    width: 48%;
+    font-style: italic;
+  }
+
+  .tribune {
+    border-top: 3px double #b60000;
+    border-bottom: 3px double #b60000;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .sous-tribune {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-left: 4px solid #b60000;
+  }
+
+  .sous-tribune img {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  .ventre {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .ventre img {
+    max-width: 80%;
+    border: 2px solid #444;
+  }
+
+  .cheval {
+    border-top: 2px dashed #b60000;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 0.95em;
+  }
+
+  aside .pub {
+    background-color: #eee;
+    border: 1px solid #aaa;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 0.85em;
+    color: #555;
+  }
+
+  h2 {
+    margin-top: 0;
+    color: #b60000;
+  }
+
+</style>
+</head>
+<body>
+
+<header>
+  Révélation historique : le mensonge de Notre-Dame dévoilé après 6 ans de silence
+</header>
+
+<div class="manchette">
+  <div>LE GRAND QUOTIDIEN</div>
+  <div>6,99€ – 12/11/2025</div>
+</div>
+
+<div class="page">
+  <main>
+    <div class="oreilles">
+      <div class="oreille-gauche">
+        🕮 Dossier spécial : Les secrets de l’incendie de 2019 – p.4 à 7
+      </div>
+      <div class="oreille-droite">
+        ✝️ Entretien exclusif d’un prêtre (?) révolté
+      </div>
+    </div>
+
+    <section class="sous-tribune">
+      <h2>La couronne d’épine exposée à Notre-Dame… était une FAUSSE ?</h2>
+      <p>
+        Selon les révélations d’une enquête indépendante, la véritable Couronne d’Épines aurait été détruite lors de l’incendie du 16 avril 2019.
+        <br><br>
+        Pour éviter un scandale international, une copie parfaite aurait été fabriquée en secret dans un atelier du Ministère du Patrimoine Spirituel. 
+        Plusieurs hauts responsables de l’État et de l’Église auraient validé cette substitution.
+        <br><br>
+        “Le peuple n’est pas prêt à connaître la vérité”, aurait déclaré le président Armand Delcroix (Parti de la Destruction National) en 2020.
+      </p>
+      <p style="text-align:right; font-weight:bold;">– page 2 à 3</p>
+    </section>
+
+    <section class="sous-tribune">
+      <h2>🧱 SOUS-TRIBUNE SECONDAIRE</h2>
+      <p>
+        Les Parisiens, partagés entre colère et incrédulité, recréent le mouvement des « Gilets jaunes » pour manifester contre les mensonges de l’État.
+        <br><br>
+        Alors que la rumeur enfle, certains fidèles appellent à “pardonner pour préserver la foi”, tandis que d’autres exigent une enquête parlementaire.
+      </p>
+      <div class="image">
+        <!-- IMAGE DES GILETS JAUNES -->
+        <img src="images/gilets-jaunes.jpg" alt="Manifestation des Gilets jaunes">
+      </div>
+      <p style="text-align:right; font-weight:bold;">– page 8 à 9</p>
+    </section>
+
+    <section class="tribune">
+      “Mentir pour protéger la foi ou tout révéler ?” – par Jules Morin, chroniqueur politique
+    </section>
+
+    <div class="ventre">
+      <!-- IMAGE DE LA COURONNE -->
+      <img src="images/couronne.jpg" alt="La couronne d'épines de Notre-Dame">
+    </div>
+
+    <section class="cheval">
+      <h2>CHEVAL : Patrimoine – La Couronne du mensonge</h2>
+      <p>
+        Un reportage exclusif sur les coulisses de la restauration de Notre-Dame.
+        <br><br>
+        Nos journalistes ont rencontré les artisans, témoins et archivistes qui racontent l’incroyable manipulation d’État (p.5 à 7).
+      </p>
+    </section>
+  </main>
+
+  <aside>
+    <div class="pub">[ Espace Publicitaire 1 ]</div>
+    <div class="pub">[ Espace Publicitaire 2 ]</div>
+  </aside>
+</div>
+
+</body>
+</html>
